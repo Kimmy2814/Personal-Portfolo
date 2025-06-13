@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio with Projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <img src="images/pic3.jfif" alt="Profile Picture" class="profile-pic">
+        <h1>Hi! I'm Julianne Kim Macayan</h1>
+        <p class="about">I’m Julianne Kim Macayan, a 22-year-old third-year Computer Science student at Cavite State University–Bacoor Campus. I somehow ended up in this course, and now I’m just trying to survive it one "bahala na si Batman" moment at a time. Coding? Eh. Not exactly my passion — but hey, I’ve made it this far, so I must be doing something right (or at least not crashing every system I touch).</p>
+  
+    </header>
+     <nav>
+    <div class="nav-buttons" id="nav-buttons">
+        <button onclick="location.href='#about'">About Me</button>
+        <button onclick="location.href='#projects'">Projects</button>
+        <button onclick="location.href='#skills'">Skills</button>
+        <button onclick="location.href='#challenges'">Challenges & Learnings</button>
+        <button onclick="location.href='#future'">Future Plans</button>
+        <button onclick="location.href='#resume'">Resume</button>
+        <button onclick="location.href='#contact'">Contact</button>
+    </div>
+</nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>My full name is Julianne Kim Macayan. I’m 22 years old and currently a third-year college student taking up a Bachelor of Science in Computer Science at Cavite State University – Bacoor Campus.<br><br>
+
+I consider myself a friendly person who enjoys spending time with those I’m close to. However, I also have an introverted side and value my quiet space. Honesty and respect are important to me — both in how I treat others and how I hope to be treated in return. I find peace in music and nature, and I genuinely love helping others, even in small ways.<br><br>
+
+To be honest, I don’t have a strong passion for coding or for the course I’m currently taking. But I’ve made it this far, now in my third year of college, and I’m manifesting that I will graduate. I may not be the most critical thinker or the most confident speaker, and I tend to overthink things or feel shy in large groups, but I always try to keep pushing forward.
+
+Deep down, I dream of becoming a successful businesswoman someday. That dream is what keeps me going. I believe that even if the path I’m on isn’t perfect, I’ll eventually find my way to the life I’ve always envisioned.<br><br>
+
+I come from a simple and loving family. My father works as a supervisor in a food company, while my mother is a former overseas Filipino worker (OFW). I have three siblings, and we live together in Bacoor, Cavite.
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript & jQuery</li>
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>Responsive Design</li>
+        </ul>
+        <p>As of now, I don’t have any formal achievements or training certifications related to web development, but I continue to learn and improve through hands-on practice, school projects, and personal exploration.
+
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project" onclick="openModal('modal1')">
+            <img src="images/proj1.jpg" alt="Project 1 Image" class="project-img">
+            <h3>Billing System</h3>
+            <p>This project is a Simple Billing System designed for  small Coffee & Donut Shop, developed using Python. The system allows staff to easily take customer orders, calculate totals, process payments, and print receipts directly in the console.
+</p>
+        </div>
+
+        <div class="project" onclick="openModal('modal2')">
+            <img src="images/proj2.PNG" alt="Project 2 Image" class="project-img">
+            <h3>Portfolio Website</h3>
+            <p>This is a simple portfolio I created during my second year in college. It showcases some of my early work, including basic web pages and designs I made while learning the fundamentals of web development.</p>
+        </div>
+
+    <!-- Modal Section -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal1')">&times;</span>
+            <img src="images/proj1.jpg" alt="Project 1 Full Image" class="modal-img">
+            <h2>Billing System</h2>
+            <p>This project is a Simple Billing System designed for  small Coffee & Donut Shop, developed using Python. The system allows staff to easily take customer orders, calculate totals, process payments, and print receipts directly in the console.
+</p>
+        </div>
+    </div>
+
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal2')">&times;</span>
+            <img src="images/proj2.PNG" alt="Project 2 Full Image" class="modal-img">
+            <h2>Portfolio Website</h2>
+            <p>This is a simple portfolio I created during my second year in college. It showcases some of my early work, including basic web pages and designs I made while learning the fundamentals of web development.</p>
+        </div>
+    </div>
+
+    <!-- Challenges and Learnings Section -->
+    <section id="challenges">
+        <h2>Challenges and Learnings</h2>
+        <p>Throughout my journey as a Computer Science student and aspiring web developer, I have encountered several challenges that have shaped my growth. Debugging complex code, learning new frameworks, and managing my time efficiently have all tested my patience and determination. However, each obstacle has taught me valuable lessons and strengthened my problem-solving skills.<br><br>
+
+           Some of the key challenges I’ve faced include:</p>
+        <ul>
+            <li>Adapting to new technologies quickly</li>
+            <li>Balancing multiple projects</li>
+            <li>Collaborating with diverse teams</li>
+            <li>Continuous self-improvement</li>
+        </ul>
+    </section>
+
+    <!-- Future Plans in Life Section -->
+    <section id="future">
+        <h2>Future Plans in Life</h2>
+        <p>While I may not see myself pursuing a long-term career as a developer, I’m committed to finishing my current degree and making the most of the opportunities it brings. My experiences have helped me build resilience, and even though this path isn’t my true passion, I believe it’s still part of my journey toward something greater.
+
+My dream is to become a successful businesswoman — someone who can build something meaningful and impactful, even if it’s not directly related to programming. I want to gain enough knowledge and experience to open doors for myself in different industries and find a career that aligns with my strengths, creativity, and values.
+
+<br><br>Some of my practical goals include:</p>
+        <ul>
+            <li>Graduate with my degree in Computer Science</li>
+            <li>Explore business-related opportunities</li>
+            <li>Build self-confidence and independence</li>
+        </ul>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Resume / Curriculum Vitae</h2>
+        <a href="resume.pdf" download class="download-btn">Download My Resume (PDF)</a>
+    </section>
+
+     <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Portfolio | Designed with ❤️</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+    
+</body>
+</html>
